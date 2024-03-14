@@ -1,0 +1,58 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding-top: 1rem; */
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#logo-container .logo {
+  border-radius: 50px;
+  border: #b9b9b9 1px solid;
+}
+.nav-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  /* transition: color; */
+  /* transition-timing-function: ease-out; */
+}
+
+.nav-container .blue a {
+  color: rgb(32, 55, 109);
+}
+
+.nav-container .lineblue {
+  background-color: rgb(32, 55, 109);
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  margin-top: -3px;
+}
+
+header {
+  transition: all 0.3s ease;
+  background-color: transparent; /* Initial background color */
+}
+
+header.scrolled {
+  background-color: rgba(255, 255, 255, 0.913);
+}
+
+@keyframes logo-text {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
